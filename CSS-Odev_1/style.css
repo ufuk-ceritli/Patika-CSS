@@ -1,0 +1,167 @@
+
+.body {
+    background-color: rgb(21,32,43);
+    color:rgb(246,248,248);
+}
+
+.header {
+    text-align:center;
+    font-size: 250%;
+    font-family: 'Nabla', cursive;
+}
+
+.navbar {
+    text-align: right;
+    margin-left: 28.4%;
+    margin-bottom: 1%;
+    width: 47%;
+    height: 100%;
+}
+
+.navButton {
+    border-radius: 5px;
+    width: fit-content;
+    margin: 1%;
+    padding: 1.4%;
+    text-align: center;
+    font-size: 150%;
+    font-family: Roboto;
+    text-decoration: none;
+    color: rgb(246,248,248);
+    background-color: rgb(62, 199, 253);
+}
+
+.navButton:hover {
+    background-color: rgb(247, 190, 47);
+}
+
+#indexButton {
+    background-color: rgb(187, 140, 22);
+}
+
+#productsButton {
+    background-color: rgb(187, 140, 22);
+}
+
+#about-usButton {
+    background-color: rgb(187, 140, 22);
+}
+
+.section {
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    border-style: outset;
+    text-align:center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(30,39,50);
+    font-family: Roboto;
+}
+
+
+.article {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.footer {
+    text-align:center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+}
+
+p {
+    text-align: left;
+    font-size: 170%;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 250%;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+hr {
+    border: 1px solid goldenrod;
+}
+
+.links {
+    text-decoration: none;
+    color:goldenrod;
+}
+
+.links:hover {
+    color:rgb(246,248,248);
+}
+
+/* ****************** Responsive Image Gallery ****************** */
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 33.3333%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* ****************** Product Menu Images ****************** */
+.pr-Menu {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.prImg img{
+    width: 70%;
+    opacity: 0.8;
+}
+
+.prImg:hover img{
+    opacity: 1;
+    width: 75%;
+}
